@@ -7,7 +7,7 @@ site_name: 'scholarLY'
 theme:
   name: 'material'
   palette:
-    primary: 'Brown'
+    primary: 'Red'
     accent: 'Amber'
   logo:
     icon: 'music_note'
@@ -34,9 +34,8 @@ site_dir: '../../docs/scholarly'
 
 nav:
 - Home:
+  - Main Book: ../index.html
   - Home: index.md
   - Packages:
-    - Main Book: ../index.html
-    - notation-fonts: ../notation-fonts/index.html
     - oll-core: ../oll-core/index.html
     - '[scholarLY]': ../scholarly/index.html
